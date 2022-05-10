@@ -9,6 +9,7 @@ docker buildx build --push --platform linux/amd64,linux/arm64 -t 3bdigital/bower
 docker buildx build --push --platform linux/amd64,linux/arm64 -t 3bdigital/bower-grunt-gulp:12 12
 docker buildx build --push --platform linux/amd64,linux/arm64 -t 3bdigital/bower-grunt-gulp:14 14
 docker buildx build --push --platform linux/amd64,linux/arm64 -t 3bdigital/bower-grunt-gulp:16 16
+docker buildx build --push --platform linux/amd64,linux/arm64 -t 3bdigital/bower-grunt-gulp:18 18
 
 #################################################
 # Retired images
